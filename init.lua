@@ -1,0 +1,12 @@
+-- 
+require("001_lazy")
+require("002_plugins")
+require("003_general")
+require("004_ui")
+require("005_telescope")
+require("006_keymap")
+require("007_ddc")
+require("008_telescope")
+require("009_lsp")
+require("010_pum")
+require("011_skk")
