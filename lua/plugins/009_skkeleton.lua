@@ -1,8 +1,6 @@
 return {
-  {
-    'vim-skk/skkeleton',
+    'vim-skk/skkeleton';
     dependencies = {
       'vim-denops/denops.vim'
-    }
   }
 }

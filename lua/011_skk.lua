@@ -1,5 +1,7 @@
-vim.fn["skkeleton#config"]({globalJisyo = '~/.skk/SKK-JISHO.L'})
+vim.fn["skkeleton#config"]{
+  globalDictionaries = {'~/SKK-JISYO.L'}
+}
 
-local set = vim.keymap.set
+vim.keymap.set('i','<C-j>','<Plug>(skkeleton-toggle)')
 
-set('i','C-j','<Plug>(skkeleton-enable)')
+

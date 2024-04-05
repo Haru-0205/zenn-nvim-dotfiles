@@ -10,8 +10,11 @@ return {
 		{
 			'lambdalisue/fern-renderer-nerdfont.vim',
 			config = function()
-				vim.g['fern$renderer'] = "nerdfont"
+				vim.g['fern#renderer'] = "nerdfont"
 			end
 		},
+    {
+      'lambdalisue/fern-git-status.vim',
+    },
 	},
 }
