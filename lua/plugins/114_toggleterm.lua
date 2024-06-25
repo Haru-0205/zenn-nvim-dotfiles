@@ -4,5 +4,9 @@ return {
   config = true,
   opt = {
 
-  }
+  },
+  keys = {
+    {"gu", mode = "n"},
+    {"lg", mode = "n"},
+  },
 }

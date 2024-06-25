@@ -4,5 +4,8 @@ return {
     require('nvls').setup({
 
     })
-  end
+  end,
+  ft = {
+    "lilypond"
+  }
 }

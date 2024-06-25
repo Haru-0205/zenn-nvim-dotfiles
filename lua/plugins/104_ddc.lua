@@ -12,12 +12,12 @@ return {
       'Shougo/neco-vim',
       'Shougo/ddc-source-cmdline-history',
       'LumaKernel/ddc-source-file'
-    }
+    },
   },
   {
     'Shougo/pum.vim',
     dependencies = {
       'folke/noice.nvim'
-    }
+    },
   }
 }
